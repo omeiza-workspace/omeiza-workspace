@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Omeiza
 - 👀 I’m interested in automated business systems
-- 🌱 I’m currently learning Quasar, Spring and devOps
+- 🌱 I’m currently learning Quasar, Spring and AWS
 - 💞️ I’m looking to collaborate on business Development Solutions
 - 📫 How to reach me: okuta.omeiza@gmail.com
 
