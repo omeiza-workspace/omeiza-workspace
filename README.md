@@ -25,4 +25,3 @@ I am a passionate and experienced software developer with expertise in building 
 
 ![Your GitHub Stats](xhttps://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radicalx)
 
-(https://github-readme-stats.vercel.app/api/top-langs/?username=your
