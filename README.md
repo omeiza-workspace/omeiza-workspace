@@ -44,7 +44,7 @@ honestly.
 - **Portfolio and evidence** — https://omeiza-workspace.github.io/
 - **[Open Source Impact](https://omeiza-workspace.github.io/evidence/)** — the consolidated public record
 - **[Verification index](https://omeiza-workspace.github.io/record/)** — every claim, and the artefact that supports it
-- **[LinkedIn](https://www.linkedin.com/in/omeiza-okuta)** · **[X](https://x.com/omeiza)** · **[RSS](https://omeiza-workspace.github.io/feed.xml)**
+- **[LinkedIn](https://www.linkedin.com/in/omeiza-okuta)** · **[RSS](https://omeiza-workspace.github.io/feed.xml)**
 
 ## Elsewhere in the workspace
 
