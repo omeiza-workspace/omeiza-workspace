@@ -1,27 +1,57 @@
-# Hi there, I'm Omeiza! 👋
+# Omeiza Okuta
 
-## About Me
+**Open Source Architect** — building light, sustainable developer infrastructure
+and local-first CI/CD automation.
 
-I am a passionate and experienced software developer with expertise in building scalable and high-performance applications. I specialize in a variety of technologies, including ASP.NET Core, Laravel, JavaScript, and Python. I enjoy working on both front-end and back-end development, and I have a strong interest in DevOps practices and infrastructure automation.
+I write the tools that decide whether a team waits forty seconds or forty
+minutes for a green build, and I publish how every number was measured —
+including the measurement I threw away and the claims I do not make.
 
-- 🌱 Always learning and exploring new technologies
+**[Portfolio, case studies and public evidence →](https://omeiza-workspace.github.io/)**
 
-## Skills
+---
 
-![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/-ASP.NET_Core-512BD4?style=flat-square&logo=.net&logoColor=white)
-![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue-dot-js&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Terraform](https://img.shields.io/badge/-Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+## The tools
 
+| | |
+|---|---|
+| **[CI Kit](https://github.com/omeiza-workspace/ci-kit)** — run your CI on your laptop, before you push. A local gate that runs the same scripts your GitHub Actions workflow runs, and runs the workflow itself locally through [`act`](https://github.com/nektos/act). Shell, MIT. | 99 s on a 2022 Intel laptop, against 43–48 s on a runner. It is a **guarantee of feedback, not a speedup** — and the [evidence document](https://github.com/omeiza-workspace/ci-kit/blob/main/docs/EVIDENCE.md) says so. |
+| **[api-mock-services](https://github.com/omeiza-workspace/api-mock-services)** — stand-ins for the outside world. One dependency-free Node process standing in for 18 third-party providers: Stripe, Paystack, Interswitch, Flutterwave, Monnify, YouVerify, Smile ID, Twilio, Resend, Xero and the rest. MIT. | 50 MB in one process, against 250 MB across four containers. 0.0% idle CPU against 7.9%. First request in 1.4 s against 20 s and rising. The footprint is a **build gate**, so the number cannot quietly stop being true. |
 
-## GitHub Stats
+## Why these two
 
-![Your GitHub Stats](xhttps://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radicalx)
+Both exist because of a specific failure, not a feature list.
 
+- On 21 October 2026, a repository had **28 failing runs out of the last 30** — and not one had failed on code. GitHub had refused to start the jobs over a spending limit, every run failing in about six seconds. Nobody could tell the difference between a red build and a build that never ran. CI Kit is the answer to that.
+- The mock environment it grew alongside was **four containers, 250 MB, 7.9% idle CPU**, and a 214 MB OpenAPI proxy that never finished translating. api-mock-services is the answer to that.
+
+## What I write about
+
+Long-form technical essays on CI/CD reproducibility, offline-first integration
+testing, and the discipline of publishing a measurement honestly.
+
+- [The Silent Bill: How a Billing Decision Looked Like 28 Failed Builds](https://omeiza-workspace.github.io/blog/the-silent-bill-remote-ci-cd-drift/)
+- [Architecting Local Sandboxes for Interswitch and Paystack Integrations, Completely Offline](https://omeiza-workspace.github.io/blog/architecting-local-sandboxes-offline/)
+- [Deterministic Toolchains Don't Need a Backend](https://omeiza-workspace.github.io/blog/deterministic-toolchains-dont-need-a-backend/)
+- [The Green Build Myth](https://omeiza-workspace.github.io/blog/the-green-build-myth/)
+- [The earlier archive, 2013–2026](https://omeiza-workspace.github.io/archive/) — 30 articles, dated and unchanged.
+
+## Where else
+
+- **Portfolio and evidence** — https://omeiza-workspace.github.io/
+- **[Open Source Impact](https://omeiza-workspace.github.io/evidence/)** — the consolidated public record
+- **[Endorsement evidence map](https://omeiza-workspace.github.io/endorsement/)** — every claim, and the artefact that supports it
+- **[LinkedIn](https://www.linkedin.com/in/omeiza-okuta)** · **[X](https://x.com/omeiza)** · **[RSS](https://omeiza-workspace.github.io/feed.xml)**
+
+## Elsewhere in the workspace
+
+| | |
+|---|---|
+| **[homebrew-tap](https://github.com/omeiza-workspace/homebrew-tap)** | Homebrew formulas for the tools in this workspace |
+| **[TechLiaison](https://github.com/omeiza-workspace/TechLiaison)** | The original Hugo blog, before it moved to the portfolio |
+| **[omeiza-workspace.github.io](https://github.com/omeiza-workspace/omeiza-workspace.github.io)** | This site's source — JSON in, static HTML out, no dependencies |
+
+---
+
+<sub>Available for Global Talent visa endorsement enquiries. Technical and
+endorsement questions: [okuta.omeiza@gmail.com](mailto:okuta.omeiza@gmail.com)</sub>
