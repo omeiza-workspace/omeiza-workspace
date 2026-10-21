@@ -37,7 +37,7 @@ honestly.
 - [Architecting Local Sandboxes for Interswitch and Paystack Integrations, Completely Offline](https://omeiza-workspace.github.io/blog/architecting-local-sandboxes-offline/)
 - [Deterministic Toolchains Don't Need a Backend](https://omeiza-workspace.github.io/blog/deterministic-toolchains-dont-need-a-backend/)
 - [The Green Build Myth](https://omeiza-workspace.github.io/blog/the-green-build-myth/)
-- [The earlier archive, 2013–2026](https://omeiza-workspace.github.io/archive/) — 30 articles, dated and unchanged.
+- [The earlier archive, 2013–2025](https://omeiza-workspace.github.io/archive/) — 29 articles, dated and unchanged.
 
 ## Where else
 
